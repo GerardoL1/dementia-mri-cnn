@@ -4,6 +4,8 @@ Classifying brain MRI slices into four dementia stages with LeNet-5, an MLP base
 
 Joshua Ayaku and Gerardo Lozano, The University of Texas at Dallas. Written up as an IEEE-format research paper.
 
+📄 **Read the full paper:** [Dementia_MRI_CNN_Paper.pdf](Dementia_MRI_CNN_Paper.pdf)
+
 ## Overview
 
 Telling Non Demented, Very Mild, Mild and Moderate Dementia apart on an MRI is hard because the differences are subtle. There are no sharp, distinct shapes that separate the classes. We call this **low-salience shape recognition**. The project asks two questions:
@@ -78,7 +80,7 @@ pip install -r requirements.txt
 
 Figures are saved to `figures/` and model weights to `models/`. A GPU is strongly recommended.
 
-A fixed random seed was added when the original project notebooks were merged, so the results above differ slightly from the numbers in the paper. On a laptop CPU the full run took about 6 hours.
+A fixed random seed is set at the top of the notebook, so reruns should reproduce these results closely. On a laptop CPU the full run took about 6 hours.
 
 ## Limitations and future work
 
