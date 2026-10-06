@@ -1,0 +1,22 @@
+# Dataset (too big for GitHub, download it from Kaggle instead)
+archive.zip
+extracted/
+data/
+labeled_dataset.csv
+
+# Trained weights
+models/
+*.pth
+
+# Old per-person notebooks, merged into ML_Project_Unified.ipynb
+ML_Project.ipynb
+ML_Project (*).ipynb
+
+# Private notes
+PAPER_FIXES.md
+
+# Python and Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
