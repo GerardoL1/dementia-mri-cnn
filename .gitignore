@@ -15,6 +15,11 @@ ML_Project (*).ipynb
 # Private notes
 PAPER_FIXES.md
 
+# Paper source and Overleaf zips (only the final PDF is published)
+paper/
+ML_Project.zip
+paper_run2.zip
+
 # Python and Jupyter clutter
 __pycache__/
 .ipynb_checkpoints/
